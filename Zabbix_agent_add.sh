@@ -50,7 +50,5 @@ echo `curl -k -s -H 'Content-Type: application/json-rpc' -d "{\"jsonrpc\":\"2.0\
       exit
  else
       echo -e "\nHost ${HOST_NAME} added successfully\n"
-      # start zabbix agent
-      #service zabbix-agent start
       exit
  fi
